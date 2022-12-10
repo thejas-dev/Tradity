@@ -146,7 +146,7 @@ export default function Gallery({id}) {
 		</motion.div>
 		<div className="min-h-screen relative w-full md:mt-[60px]">
 		<div className={`h-full w-full absolute p-5 flex items-center justify-center bg-gray-1000/30 rounded-xl 
-		backdrop-blur-sm md:backdrop-blur-md ${currentUser ? "hidden" : ""} z-10 absolute`} >
+		backdrop-blur-md md:backdrop-blur-md ${currentUser ? "hidden" : ""} z-10 absolute`} >
 				<h1 className={`text-yellow-500  text-4xl mx-auto font-semibold`} ><span 
 				onClick={()=>signIn(id)}
 				className="text-sky-500 cursor-pointer"> Login</span> to view our charts</h1>
