@@ -17,7 +17,7 @@ export default function Courses() {
 			</h3>
 
 		</motion.div>
-		<div className="grid grid-cols-1 md:grid-cols-3 w-full h-full mt-10 px-5 py-5 gap-10" >
+		<div className="grid grid-cols-1 md:grid-cols-3 w-full h-full md:mt-[200px] mt-10 px-5 py-5 gap-10" >
 			<motion.div
 			initial={{
 				opacity:0.5
@@ -28,7 +28,7 @@ export default function Courses() {
 			transition={{
 				duration:1.5
 			}}
-			className="rounded-xl bg-gray-700/40 p-5 h-[450px]"
+			className="rounded-xl bg-gray-700/40 p-5 h-[300px]"
 			>
 				<div className="flex flex-col gap-5 text-center justify-center" >	
 					<h1 className="text-3xl text-yellow-500 font-bold uppercase">M i s s i o n</h1>
@@ -48,11 +48,11 @@ export default function Courses() {
 			transition={{
 				duration:1.5
 			}}
-			className="rounded-xl bg-gray-700/40 p-5 h-[450px]"
+			className="rounded-xl bg-gray-700/40 p-5 h-[300px]"
 			>
 				<div className="flex flex-col gap-5 text-center justify-center" >	
 					<h1 className="text-3xl text-yellow-500 font-bold uppercase">V I S I O N</h1>
-					
+					<p className="text-lg text-gray-300/70 font-semibold">To Help People to be Financially independent</p>
 
 				</div>
 
@@ -67,11 +67,11 @@ export default function Courses() {
 			transition={{
 				duration:1.5
 			}}
-			className="rounded-xl bg-gray-700/40 p-5 h-[450px]"
+			className="rounded-xl bg-gray-700/40 p-5 h-[300px]"
 			>
 				<div className="flex flex-col gap-5 text-center justify-center" >	
 					<h1 className="text-3xl text-yellow-500 font-bold uppercase">V A L U E</h1>
-				
+					<p className="text-lg text-gray-300/70 font-semibold">The world stops aside for the man who knows where he is going</p>
 
 				</div>
 

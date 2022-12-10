@@ -10,16 +10,21 @@ import  Video from '../components/Video'
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
 import {useRecoilState} from 'recoil';
-import {RevealState} from '../atoms/userAtom';
+import {RevealState,currentUserState,adminState} from '../atoms/userAtom';
 import {useState,useEffect} from 'react';
-import axios from 'axios'
+import axios from 'axios';
+import {signIn,useSession,getProviders,getSession} from 'next-auth/react'     
 
-const Index = ({props}) => {
+const Index = ({providers}) => {
   const [reveal,setReveal] =useRecoilState(RevealState);
+  const [currentUser,setCurrentUser] = useRecoilState(currentUserState);
+  const [admin,setAdmin] = useRecoilState(adminState);
   const [mail,setMail] = useState('');
   const [confirmButton,setConfirmButton] = useState(false);
   const [subscribed,setSubscribed] = useState(false);
-
+  const id = Object.values(providers).map((provider)=>provider.id)
+  // .log(session)
+  const session = 
   useEffect(()=>{
       if(mail.includes('@gmail.com') || mail.includes('@email.com')){
         setConfirmButton(true)
@@ -32,16 +37,48 @@ const Index = ({props}) => {
     if(localStorage.getItem('tradity')){
       setSubscribed(true)
     }
-  },[])
+    
+      getSession().then((data3)=>{
+        if(data3){
+          handleValidation(data3)
+        }
+      })
+    
+  },[]);
+
+  const handleValidation = async(data3) => {
+
+          const gmail = data3?.user?.email;
+          const {data} = await axios.post(`${process.env.NEXT_PUBLIC_BASE_SERVER}/api/auth/tradityusercheck`,{
+            gmail
+          })
+          if(data?.status === true){
+            setCurrentUser(data.user);
+            if(data.user.gmail === "saravanakumargm2003@gmail.com"){
+              setAdmin(true)
+            }
+          }else{
+            const name = data3?.user.name;
+            const data2 = await axios.post(`${process.env.NEXT_PUBLIC_BASE_SERVER}/api/auth/tradityusercreate`,{
+              gmail,name
+            })
+            setCurrentUser(data2.data.user);
+            if(data2.data.user.gmail === "saravanakumargm2003@gmail.com"){
+              setAdmin(true)
+            }
+          }          
+  }
 
   const  submitSubscribe = async() =>{
     const gmail = mail;
     setMail('');
     setReveal(false);
-    const {data} = await axios.post('https://chat-siris-v2-server.vercel.app/api/auth/subscribe',{
+    const {data} = await axios.post(`${process.env.NEXT_PUBLIC_BASE_SERVER}/api/auth/subscribe`,{
       gmail
     })
-    console.log(data)
+
+    //https://chat-siris-v2-server.vercel.app/
+    // console.log(data)
     localStorage.setItem('tradity',data.subscribe.gmail);
     setSubscribed(true)
   }
@@ -50,6 +87,7 @@ const Index = ({props}) => {
     localStorage.removeItem('tradity');
     setSubscribed(false)
   }
+
 
 
   return (
@@ -61,7 +99,7 @@ const Index = ({props}) => {
             <title>Tradity</title>
             <link rel="icon" href="/favicon.ico" />
           </Head>
-          <Header/>
+          <Header session={session} id={id}/>
           <section id='hero' className="snap-start overflow-x-hidden">
             <Hero />        
           </section>
@@ -72,7 +110,7 @@ const Index = ({props}) => {
             <Courses />        
           </section>
           <section id='gallery' className="snap-center">
-            <Gallery />        
+            <Gallery id={id} />        
           </section>
           <section id='courses' className="snap-center">
             <Video />        
@@ -128,7 +166,12 @@ export default Index;
 
 
 export async function getStaticProps(context) {
-  return {
-    props:{}
+  const providers = await getProviders();
+  // const session = await getSession();
+  return{
+    props: {
+      providers
+      // session
+    }
   }
 }

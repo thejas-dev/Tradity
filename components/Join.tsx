@@ -3,6 +3,7 @@ import {PhoneIcon,MapPinIcon,EnvelopeIcon} from '@heroicons/react/24/solid'
 import { useForm, SubmitHandler } from "react-hook-form";
 
 
+
 type Inputs = {
   name: string;
   email: string;
@@ -60,6 +61,7 @@ export default function Join() {
 						Submit	
 					</button>
 				</form>
+				
 			</div>
 
 

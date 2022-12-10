@@ -36,7 +36,7 @@ export default function Hero() {
 					object="cover"
 					height={300}
 					width={300}
-					className="rounded-full relative z-50 shadow-lg shadow-red-500/50"
+					className="rounded-full relative z-30 shadow-lg shadow-red-500/50"
 					/>
 					<div className=" absolute top-[170px] md:top-[250px] z-0 ">
 						<BackgroundCircles/>

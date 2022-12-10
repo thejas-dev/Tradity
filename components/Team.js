@@ -27,6 +27,7 @@ export default function Team() {
 		}}
 		whileInView={{opacity:1,x:0}}
 		transition={{duration:1.5}}
+		className="z-0 flex flex-col items-center"
 		>
 			
 				<Image src="https://ik.imagekit.io/d3kzbpbila/thejashari_heRsuY-P-?ik-sdk-version=javascript-1.4.3&updatedAt=1670578174936"
@@ -37,7 +38,8 @@ export default function Team() {
 				className="shadow-xl shadow-blue-500/70 relative  rounded-full"
 				/>
 				<h1 className="text-xl font-semibold text-gray-500 mt-6">G M Saravana Kumar</h1>
-			
+				<h1 className="text-md font-semibold text-gray-500/80 mt-2">Options trader</h1>
+				<h1 className="text-md font-semibold text-gray-700 mt-2">Positional options buyer </h1>
 		</motion.div>
 		<hr className="md:hidden" />
 			<motion.div
@@ -47,7 +49,7 @@ export default function Team() {
 		}}
 		whileInView={{opacity:1,y:0}}
 		transition={{duration:1.5}}
-		className="z-0"
+		className="z-0 flex flex-col items-center"
 		>
 			
 				<Image src="https://ik.imagekit.io/d3kzbpbila/thejashari_1aSwXDzyp?ik-sdk-version=javascript-1.4.3&updatedAt=1670519281320"
@@ -58,7 +60,7 @@ export default function Team() {
 				className="shadow-xl shadow-blue-500/70 relative  rounded-full"
 				/>
 				<h1 className="text-xl font-semibold text-gray-500 mt-6">N U Thejas Hari</h1>
-			
+				<h1 className="text-md font-semibold text-gray-500/80 mt-2">Web Developer and Cash market trader</h1>
 		</motion.div>
 		<hr className="md:hidden" />
 			<motion.div
@@ -68,7 +70,7 @@ export default function Team() {
 		}}
 		whileInView={{opacity:1,x:0}}
 		transition={{duration:1.5}}
-		className="z-50"
+		className="z-0 flex flex-col items-center"
 		>
 			
 				<Image src="https://ik.imagekit.io/d3kzbpbila/thejashari_bvh2Rativ?ik-sdk-version=javascript-1.4.3&updatedAt=1670553916566"
@@ -79,7 +81,7 @@ export default function Team() {
 				className=" shadow-xl shadow-blue-500/70 relative rounded-full"
 				/>
 				<h1 className="text-xl font-semibold text-gray-500 mt-6">K R Saravanan</h1>
-			
+				<h1 className="text-md font-semibold text-gray-500/80 mt-2">Cash market trader</h1>
 		</motion.div>
 		<hr className="md:hidden" />
 		</div>
