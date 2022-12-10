@@ -36,7 +36,7 @@ export default function Team() {
 				object="contain"
 				className="shadow-xl shadow-blue-500/70 relative  rounded-full"
 				/>
-				<h1 className="text-xl font-semibold text-gray-500 mt-6">G M Saravana Kumar, B.E.</h1>
+				<h1 className="text-xl font-semibold text-gray-500 mt-6">G M Saravana Kumar</h1>
 			
 		</motion.div>
 		<hr className="md:hidden" />
@@ -57,7 +57,7 @@ export default function Team() {
 				object="contain"
 				className="shadow-xl shadow-blue-500/70 relative  rounded-full"
 				/>
-				<h1 className="text-xl font-semibold text-gray-500 mt-6">N U Thejas Hari, B.E.</h1>
+				<h1 className="text-xl font-semibold text-gray-500 mt-6">N U Thejas Hari</h1>
 			
 		</motion.div>
 		<hr className="md:hidden" />
@@ -78,7 +78,7 @@ export default function Team() {
 				object="contain"
 				className=" shadow-xl shadow-blue-500/70 relative rounded-full"
 				/>
-				<h1 className="text-xl font-semibold text-gray-500 mt-6">K R Sarvanan, B.E.</h1>
+				<h1 className="text-xl font-semibold text-gray-500 mt-6">K R Saravanan</h1>
 			
 		</motion.div>
 		<hr className="md:hidden" />
