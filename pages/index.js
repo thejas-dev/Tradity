@@ -165,7 +165,7 @@ const Index = ({providers}) => {
 export default Index;
 
 
-export async function getStaticProps(context) {
+export async function getServerSideProps(context) {
   const providers = await getProviders();
   // const session = await getSession();
   return{
