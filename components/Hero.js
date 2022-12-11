@@ -15,9 +15,9 @@ export default function Hero() {
 	})
 
 	return (
-		<div className="min-h-screen w-full" >	
+		<div className="md:min-h-screen mb-10 pl-5 w-full" >	
 
-			<div className="flex flex-col md:flex-row mt-10 gap-12 md:gap-1" >
+			<div className="flex mt-10 gap-12 md:gap-1" >
 
 				<motion.div
 				initial={{
@@ -34,8 +34,8 @@ export default function Hero() {
 					<Image 
 					src="https://ik.imagekit.io/d3kzbpbila/thejashari_8tbU4Tzr6?ik-sdk-version=javascript-1.4.3&updatedAt=1670511161122"
 					object="cover"
-					height={300}
-					width={300}
+					height={430}
+					width={430}
 					className="rounded-full relative z-30 shadow-lg shadow-red-500/50"
 					/>
 					<div className=" absolute top-[170px] md:top-[250px] z-0 ">
@@ -56,26 +56,27 @@ export default function Hero() {
 				className="flex flex-grow flex-col items-center "		
 				>	
 					<div className="w-full h-full justify-center md:gap-12 gap-7 flex flex-col text-center z-10 p-5" > 
-						<h1 className="text-5xl text-yellow-500 font-semibold">{text}<Cursor cursorColor="#F7AB0A"/></h1>
-						<p className="md:text-xl  text-md text-gray-300/90 font-mono ">We Focus on various trading like cash market and F&O trading</p>
-						<div className=" flex w-full md:gap-10 flex-wrap items-center mt-5 justify-center" >
-							<Link href="#team" >
-								<button className="heroButton text-md md:text-lg">Team</button>
-							</Link>
-							<Link href="#mvv" >
-								<button className="heroButton text-md md:text-lg">m-v-v</button>
-							</Link>
-							<Link href="#gallery" >
-								<button className="heroButton text-md md:text-lg">Chart</button>
-							</Link>
-							<Link href="#join">
-								<button className="heroButton text-md md:text-lg">Join</button>
-							</Link>
-						</div>	
+						<h1 className="text-xl md:text-5xl text-yellow-500 font-semibold">{text}<Cursor cursorColor="#F7AB0A"/></h1>
+						<p className="md:text-xl  text-sm text-gray-300/90 font-mono ">We Focus on various trading like cash market and F&O trading</p>
+							
 					</div>
 
 				</motion.div>
 			</div>
+			<div className=" flex  w-full md:gap-10 gap-2 items-center mt-5 justify-center" >
+							<Link href="#mvv" >
+								<button className="heroButton text-md md:text-lg">m-v-v</button>
+							</Link>
+							<Link href="#gallery" >
+								<button className="heroButton text-md md:text-lg">chart</button>
+							</Link>
+							<Link href="#team" >
+								<button className="heroButton text-md md:text-lg">team</button>
+							</Link>
+							<Link href="#join">
+								<button className="heroButton text-md md:text-lg">Join</button>
+							</Link>
+						</div>
 		</div>
 
 	)

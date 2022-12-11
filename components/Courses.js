@@ -71,7 +71,7 @@ export default function Courses() {
 			>
 				<div className="flex flex-col gap-5 text-center justify-center" >	
 					<h1 className="text-3xl text-yellow-500 font-bold uppercase">V A L U E</h1>
-					<p className="text-lg text-gray-300/70 font-semibold">The world stops aside for the man who knows where he is going</p>
+					<p className="text-lg text-gray-300/70 font-semibold">The world steps aside for the man who knows where he is going</p>
 
 				</div>
 

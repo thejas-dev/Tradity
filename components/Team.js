@@ -52,15 +52,15 @@ export default function Team() {
 		className="z-0 flex flex-col items-center"
 		>
 			
-				<Image src="https://ik.imagekit.io/d3kzbpbila/thejashari_1aSwXDzyp?ik-sdk-version=javascript-1.4.3&updatedAt=1670519281320"
+				<Image src="https://ik.imagekit.io/d3kzbpbila/thejashari_99Y-Ru0EH?ik-sdk-version=javascript-1.4.3&updatedAt=1670777610086"
 				alt=""
 				height={250}
 				width={250}
 				object="contain"
 				className="shadow-xl shadow-blue-500/70 relative  rounded-full"
 				/>
-				<h1 className="text-xl font-semibold text-gray-500 mt-6">N U Thejas Hari</h1>
-				<h1 className="text-md font-semibold text-gray-500/80 mt-2">Web Developer and Cash market trader</h1>
+				<h1 className="text-xl font-semibold text-gray-500 mt-6">O R Arjun</h1>
+				<h1 className="text-md font-semibold text-gray-500/80 mt-2">Forex Trader</h1>
 		</motion.div>
 		<hr className="md:hidden" />
 			<motion.div
