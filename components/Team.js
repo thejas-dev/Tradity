@@ -46,7 +46,7 @@ export default function Team() {
 			
 				<h1 className="text-xl font-semibold text-gray-200 mt-6">O R Arjun</h1>
 				<h1 className="text-md font-semibold text-gray-300/70 mt-2">Forex Trader</h1>
-				<h1 className="text-md font-semibold text-gray-600/80 mt-2">US Stock Market</h1>
+				<h1 className="text-md font-semibold text-gray-600/80 mt-2">Forex and Commodities</h1>
 		</motion.div>
 		<hr className="md:hidden" />
 		<motion.div
@@ -60,8 +60,8 @@ export default function Team() {
 			
 				
 				<h1 className="text-xl font-semibold text-gray-200 mt-6">N U Thejas Hari</h1>
-				<h1 className="text-md font-semibold text-gray-300/70 mt-2">Developer & Cash market trader</h1>
-				<h1 className="text-md font-semibold text-gray-600/80 mt-2">Fullstack | NSE & BSE</h1>
+				<h1 className="text-md font-semibold text-gray-300/70 mt-2">Cash market trader</h1>
+				<h1 className="text-md font-semibold text-gray-600/80 mt-2">Swing and Intraday</h1>
 		</motion.div>
 		<hr className="md:hidden" />
 		<motion.div
@@ -76,7 +76,7 @@ export default function Team() {
 				
 				<h1 className="text-xl font-semibold text-gray-200 mt-6">K R Saravanan</h1>
 				<h1 className="text-md font-semibold text-gray-300/70 mt-2">Cash market trader</h1>
-				<h1 className="text-md font-semibold text-gray-600/80 mt-2">NSE & BSE</h1>
+				<h1 className="text-md font-semibold text-gray-600/80 mt-2">Swing and Intraday</h1>
 		</motion.div>
 
 		</div>
