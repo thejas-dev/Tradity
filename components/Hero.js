@@ -2,17 +2,17 @@ import {useState,useEffect} from 'react'
 import {motion} from 'framer-motion'
 import Image from 'next/image'
 import BackgroundCircles from './BackgroundCircles'
-import {useTypewriter, Cursor} from 'react-simple-typewriter'
+// import {useTypewriter, Cursor} from 'react-simple-typewriter'
 import Link from 'next/link';
 
 export default function Hero() {
 	// body...
 
-	const [text]= useTypewriter({
-		words: ['T R A D I T Y'],
-		loop: true,
-		delaySpeed: 2000,	
-	})
+	// const [text]= useTypewriter({
+	// 	words: ['T R A D I T Y'],
+	// 	loop: true,
+	// 	delaySpeed: 2000,	
+	// })
 
 	return (
 		<div className="md:min-h-screen mb-10 pl-5 w-full" >	
@@ -56,7 +56,7 @@ export default function Hero() {
 				className="flex flex-grow flex-col items-center "		
 				>	
 					<div className="w-full h-full justify-center md:gap-12 gap-7 flex flex-col text-center z-10 p-5" > 
-						<h1 className="text-xl md:text-5xl text-yellow-500 font-semibold">{text}<Cursor cursorColor="#F7AB0A"/></h1>
+						<h1 className="text-xl md:text-5xl text-yellow-500 font-semibold">T R A D I T Y</h1>
 						<p className="md:text-xl  text-sm text-gray-300/90 font-mono ">We Focus on various trading like cash market and F&O trading</p>
 							
 					</div>
