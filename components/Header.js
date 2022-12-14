@@ -65,7 +65,7 @@ export default function Header({session,id}) {
 				hover:scale-110"
 				/>
 				</a>
-				<a href="twitter">
+				<a href={twitter}>
 				<RxTwitterLogo 
 				className="md:h-8 h-6 w-6 md:w-8 h-6 w-6 text-gray-500 hover:text-sky-500 cursor-pointer transition duration-200 ease-out
 				hover:scale-110"
