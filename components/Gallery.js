@@ -77,7 +77,7 @@ export default function Gallery({id}) {
 			<h3 className="uppercase tracking-[20px] text-gray-500 z-50 text-2xl" >
 				Charts
 			</h3>
-
+			<p className="text-gray-600 z-50 text-md">Tap on chart to preview</p>
 		</motion.div>
 		<div className="min-h-screen relative w-full md:mt-[60px]">
 		<div className={`h-full w-full absolute p-5 flex items-center justify-center bg-gray-1000/30 rounded-xl 
