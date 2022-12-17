@@ -12,11 +12,10 @@ export default function Gallery({id}) {
 	const [images,setImages] = useRecoilState(imagesState);
 	const [firstArray,setFirstArray] = useState([]);
 	const [secondArray,setSecondArray] = useState([]);
-	const [thirdArray,setThirdArray] = useState([]);
 	const [currentUser,setCurrentUser] = useRecoilState(currentUserState);
 	const [reveal2,setReveal2] = useRecoilState(RevealState2);
 	const [admin,setAdmin] = useRecoilState(adminState)
-	const [link,setLink] = useState(linkState)
+	const [link,setLink] = useRecoilState(linkState)
 
 	const fetch2 = async() =>{
 		const {data} = await axios.get(`${process.env.NEXT_PUBLIC_BASE_SERVER}/api/auth/gettradityimage`)
@@ -29,7 +28,6 @@ export default function Gallery({id}) {
 	},[link])
 
 	useEffect(()=>{
-		
 		fetch2();
 	},[])
 
@@ -43,22 +41,17 @@ export default function Gallery({id}) {
 	useEffect(()=>{
 		setFirstArray([]);
 		setSecondArray([])
-		setThirdArray([])
 		let firstColumn = []
 		let secondColumn = []
-		let thirdColumn = []
 		images.forEach((image,i)=>{
-			if(i%3 === 0){
-				firstColumn.push(image)
-			}else if(i%2 === 0){
-				secondColumn.push(image)
+			if(i%2 === 0){
+				firstColumn.push(image);
 			}else{
-				thirdColumn.push(image)
+				secondColumn.push(image);
 			}
 		})
 		setFirstArray(firstColumn);
 		setSecondArray(secondColumn);
-		setThirdArray(thirdColumn);
 	},[images])
 
 	
@@ -66,7 +59,7 @@ export default function Gallery({id}) {
 	return (
 
 		<div className="min-h-screen max-w-7xl w-full mx-auto text-center z-0 mt-7" >
-		
+
 		<motion.div
 		initial={{
 			opacity:0,
@@ -77,16 +70,19 @@ export default function Gallery({id}) {
 			<h3 className="uppercase tracking-[20px] text-gray-500 z-50 text-2xl" >
 				Charts
 			</h3>
-			<p className="text-gray-600 z-50 text-md">Tap on chart to preview</p>
+			<h1 className="text-xl text-yellow-500 font-bold uppercase mt-7">S E R V I C E S</h1>
+			<p className="text-gray-300 z-50 text-xl">Currenly we are providing Investment Advisory and Trading Assistance for more details 
+			<a href="https://instagram.com/tradityltd" className="text-sky-600"> contact us.</a></p>
+			<p className="text-gray-600 z-50 text-md mt-10">Tap on chart to preview</p>
 		</motion.div>
-		<div className="min-h-screen relative w-full md:mt-[60px]">
+		<div className="min-h-screen relative w-full">
 		<div className={`h-full w-full absolute p-5 flex items-center justify-center bg-gray-1000/30 rounded-xl 
 		backdrop-blur-md md:backdrop-blur-md ${currentUser ? "hidden" : ""} z-10 absolute`} >
 				<h1 className={`text-yellow-500  text-4xl mx-auto font-semibold`} ><span 
 				onClick={()=>signIn(id)}
 				className="text-sky-500 cursor-pointer"> Login</span> to view our charts</h1>
 		</div>
-			<div className="flex grid px-5 gap-3 md:gap-10 grid-cols-1 md:grid-cols-3">
+			<div className="flex grid px-5 gap-3 md:gap-10 grid-cols-1 md:grid-cols-2">
 					<div className="flex flex-col">
 						{
 							firstArray.map((image,key)=>(
@@ -101,13 +97,7 @@ export default function Gallery({id}) {
 							))
 						}
 					</div>
-					<div className="flex flex-col">
-						{
-							thirdArray.map((image,key)=>(
-								<Card image={image} key={key} idx={key} deleteImage={deleteImage} />
-							))
-						}
-					</div>
+					
 			</div>
 		</div>
 		

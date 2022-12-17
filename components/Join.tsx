@@ -16,7 +16,7 @@ export default function Join() {
 	// body...
 	const { register, handleSubmit} = useForm<Inputs>();
   	const onSubmit: SubmitHandler<Inputs> = formData => {
-  	window.location.href = `mailto:thejaskala308@gmail.com?subject=${formData.subject}&body=Hi my name is ${formData.name}, ${formData.message} (${formData.email})`
+  	window.location.href = `mailto:tradityltd@gmail.com?subject=${formData.subject}&body=Hi my name is ${formData.name}, ${formData.message} (${formData.email})`
   }
 
 

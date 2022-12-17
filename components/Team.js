@@ -28,9 +28,12 @@ export default function Team() {
 		transition={{duration:1.5}}
 		className="z-0 flex flex-col items-center"
 		>
-			
-				
-				<h1 className="text-xl font-semibold text-gray-200 mt-6">G M Saravana Kumar</h1>
+				<a href="https://instagram.com/im_saravanan_gms">
+				<div className="flex gap-2 mt-6 items-center">
+					<h1 className="text-xl font-semibold text-gray-200" >G M Saravana Kumar</h1>
+					<BsInstagram className="text-sky-700 text-xl" />
+				</div>
+				</a>
 				<h1 className="text-md font-semibold text-gray-300/70 mt-2">Options trader</h1>
 				<h1 className="text-md font-semibold text-gray-600/80 mt-2">Positional options buyer </h1>
 		</motion.div>
@@ -43,8 +46,12 @@ export default function Team() {
 		transition={{duration:1.5}}
 		className="z-0 flex flex-col items-center"
 		>
-			
-				<h1 className="text-xl font-semibold text-gray-200 mt-6">O R Arjun</h1>
+				<a href="https://instagram.com/2020_arjun">
+				<div className="flex gap-2 mt-6 items-center">
+					<h1 className="text-xl font-semibold text-gray-200" >O R Arjun</h1>
+					<BsInstagram className="text-sky-700 text-xl" />
+				</div>
+				</a>
 				<h1 className="text-md font-semibold text-gray-300/70 mt-2">Forex Trader</h1>
 				<h1 className="text-md font-semibold text-gray-600/80 mt-2">Forex and Commodities</h1>
 		</motion.div>
@@ -58,8 +65,12 @@ export default function Team() {
 		className="z-0 flex flex-col items-center"
 		>
 			
-				
-				<h1 className="text-xl font-semibold text-gray-200 mt-6">N U Thejas Hari</h1>
+				<a href="https://instagram.com/nuthejashari">
+				<div className="flex gap-2 mt-6 items-center">
+					<h1 className="text-xl font-semibold text-gray-200" >N U Thejas Hari</h1>
+					<BsInstagram className="text-sky-700 text-xl" />
+				</div>
+				</a>
 				<h1 className="text-md font-semibold text-gray-300/70 mt-2">Cash market trader</h1>
 				<h1 className="text-md font-semibold text-gray-600/80 mt-2">Swing and Intraday</h1>
 		</motion.div>
@@ -72,9 +83,12 @@ export default function Team() {
 		transition={{duration:1.5}}
 		className="z-0 flex flex-col items-center"
 		>
-			
-				
-				<h1 className="text-xl font-semibold text-gray-200 mt-6">K R Saravanan</h1>
+				<a href="https://instagram.com/_saravanan_karthick_">
+				<div className="flex gap-2 mt-6 items-center">
+					<h1 className="text-xl font-semibold text-gray-200" >K R Saravanan</h1>
+					<BsInstagram className="text-sky-700 text-xl" />
+				</div>
+				</a>
 				<h1 className="text-md font-semibold text-gray-300/70 mt-2">Cash market trader</h1>
 				<h1 className="text-md font-semibold text-gray-600/80 mt-2">Swing and Intraday</h1>
 		</motion.div>

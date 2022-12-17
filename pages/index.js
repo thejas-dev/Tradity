@@ -206,7 +206,7 @@ const Index = ({providers}) => {
       if(reveal3){
         setInterval(function() {
             setHideButtons(true);
-        }, 5000);        
+        }, 10000);        
       }
     },[reveal3])
     
@@ -249,7 +249,7 @@ const Index = ({providers}) => {
           <Backdrop
             sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
             open={reveal3}
-            className="scrollbar-track-gray-700 scrollbar-thumb-yellow-500"
+            className="scrollbar-track-gray-700 min-h-screen scrollbar-thumb-yellow-500"
           >
             <div 
             id="corousal"
@@ -273,7 +273,7 @@ const Index = ({providers}) => {
                 <img 
                 onClick={()=>setHideButtons(!hideButtons)}
                 src={images[imageIndex]?.link} alt="" 
-                className=" rounded-xl shadow-lg shadow-sky-500/60" 
+                className="md:h-[80%] rounded-xl shadow-lg shadow-sky-500/60" 
                 />
                 <p className="text-md text-gray-400/90 max-w-7xl text-center font-semibold mb-4">{images[imageIndex]?.description}</p>
               <div 

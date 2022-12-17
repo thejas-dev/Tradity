@@ -12,7 +12,7 @@ export default function Courses() {
 		whileInView={{opacity:1}}
 		transition={{duration:1.5}}
 		>
-			<h3 className="uppercase tracking-[20px] text-gray-500 text-2xl" >
+			<h3 className="uppercase md:tracking-[20px] tracking-[10px] text-gray-500 text-2xl" >
 				Mission-vision
 			</h3>
 
