@@ -38,12 +38,16 @@ export default function Card({image,deleteImage,idx}) {
 		className={`h-10 w-10 ${admin ? "" : "hidden"} cursor-pointer top-[50px] md:top-[60px] md:right-5 right-8 absolute text-red-500 hover:scale-110 transition duration-300 ease-in-out
 		hover:text-blue-500`}/>
 		<div className="w-[80%] md:w-[90%] mb-3 flex items-center justify-between">
-			<div className="flex gap-2 md:gap-4 items-center">
+			<div className="flex items-center">
 				<img src="https://ik.imagekit.io/d3kzbpbila/thejashari_sievRnfaX?ik-sdk-version=javascript-1.4.3&updatedAt=1671288680372"
 				alt=""
 				className="h-10 w-10 md:w-12 md:h-12 rounded-full"
 				/>
-				<p className="text-gray-300 font-semibold text-md">Saravana Kumar</p>
+				<p className="text-gray-300  ml-2 md:ml-4 font-semibold text-md">Saravana Kumar</p>
+				<img src="https://ik.imagekit.io/d3kzbpbila/twitter_tick_PzVOn1Rq1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671292902504"
+				alt=""
+				className="h-5 w-5 md:h-7 md:w-7 ml-1"
+				/>
 			</div>
 			<p className="text-gray-600/80 font-semibold text-sm md:mr-5">{image.updatedAt.split('T')[0]}</p>
 		</div>
