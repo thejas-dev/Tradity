@@ -231,12 +231,12 @@ const Index = ({providers}) => {
           <section id='hero' className="snap-start overflow-x-hidden">
             <Hero />        
           </section>
-         <section id='services' className="snap-center">
-            <Services />        
-          </section>
          <section id='mvv' className="snap-center">
             <Courses />        
           </section> 
+         <section id='services' className="snap-center">
+            <Services />        
+          </section>
           <section id='gallery' className="snap-center">
             <Gallery id={id} />        
           </section>
