@@ -70,9 +70,6 @@ export default function Gallery({id}) {
 			<h3 className="uppercase tracking-[20px] text-gray-500 z-50 text-2xl" >
 				Charts
 			</h3>
-			<h1 className="text-xl text-yellow-500 font-bold uppercase mt-7">S E R V I C E S</h1>
-			<p className="text-gray-300 z-50 text-xl">Currenly we are providing Investment Advisory and Trading Assistance for more details 
-			<a href="https://instagram.com/tradityltd" className="text-sky-600"> contact us.</a></p>
 			<p className="text-gray-600 z-50 text-md mt-10">Tap on chart to preview</p>
 		</motion.div>
 		<div className="min-h-screen relative w-full">

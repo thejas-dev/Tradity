@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Head from 'next/head'
 import Image from 'next/image'
 import Courses from '../components/Courses'
+import Services from '../components/Services';
 import Join from '../components/Join.tsx'
 import  Video from '../components/Video'
 import Backdrop from '@mui/material/Backdrop';
@@ -230,7 +231,9 @@ const Index = ({providers}) => {
           <section id='hero' className="snap-start overflow-x-hidden">
             <Hero />        
           </section>
-         
+         <section id='services' className="snap-center">
+            <Services />        
+          </section>
          <section id='mvv' className="snap-center">
             <Courses />        
           </section> 

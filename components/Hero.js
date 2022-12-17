@@ -65,7 +65,10 @@ export default function Hero() {
 			</div>
 			<div className=" flex  w-full md:gap-10 gap-2 items-center mt-5 justify-center" >
 							<Link href="#mvv" >
-								<button className="heroButton text-md md:text-lg">m-v-v</button>
+								<button className="heroButton text-md md:text-lg">m-v</button>
+							</Link>
+							<Link href="#services" >
+								<button className="heroButton text-md md:text-lg">Services</button>
 							</Link>
 							<Link href="#gallery" >
 								<button className="heroButton text-md md:text-lg">chart</button>
