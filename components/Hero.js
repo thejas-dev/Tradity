@@ -64,7 +64,7 @@ export default function Hero() {
 				</motion.div>
 			</div>
 			<div className=" flex  w-full md:gap-10 gap-2 items-center mt-5 justify-center" >
-							<Link href="#services" >
+							<Link href="#services" className="z-50" >
 								<button className="heroButton text-md md:text-lg">Services</button>
 							</Link>
 							<Link href="#gallery" >
