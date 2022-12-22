@@ -75,7 +75,9 @@ export default function Services() {
 			>
 				<div className="flex flex-col gap-5 text-center justify-center" >	
 					<h1 className="text-3xl text-yellow-500 font-bold uppercase">AUM</h1>
-					<p className="text-lg text-gray-300/70 font-semibold">90K+ and Counting</p>
+					<div className="h-full w-full flex items-center justify-center">
+						<p className="text-lg text-gray-300/70 font-semibold">90K+ and Counting</p>
+					</div>
 
 				</div>
 
