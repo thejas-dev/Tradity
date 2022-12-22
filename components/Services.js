@@ -74,9 +74,9 @@ export default function Services() {
 			className="rounded-xl bg-gray-700/40 p-5 h-[300px]"
 			>
 				<div className="flex flex-col text-center " >	
-					<h1 className="text-3xl text-yellow-500 font-bold uppercase">AUM</h1>
+					<h1 className="text-xl text-yellow-500 font-bold uppercase">Assets Under Management</h1>
 					<p className="text-4xl text-gray-300/70 mt-[60px] font-semibold">90K+</p>
-					<p className="text-md text-gray-300/60 font-semibold">and counting...</p>
+					<p className="text-md text-gray-300/60 font-semibold mt-2">and counting</p>
 
 				</div>
 
