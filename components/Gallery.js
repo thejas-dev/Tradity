@@ -58,8 +58,11 @@ export default function Gallery({id}) {
 
 	return (
 
-		<div className="min-h-screen max-w-7xl w-full mx-auto text-center z-0 mt-7" >
-
+		<div className="min-h-screen relative max-w-7xl w-full mx-auto text-center z-0 mt-7" >
+		<img src="https://ik.imagekit.io/d3kzbpbila/trade2_tvkXeXbys.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671704386580"
+		alt=""
+		className="absolute mx-auto top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] opacity-40"
+		/>
 		<motion.div
 		initial={{
 			opacity:0,

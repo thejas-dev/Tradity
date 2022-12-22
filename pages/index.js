@@ -221,8 +221,8 @@ const Index = ({providers}) => {
   return (
 
 
-      <div className="min-h-screen  flex flex-col w-full bg-[rgb(30,30,30)]  snap-y snap-mandatory overflow-y-scroll 
-      z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 overflow-x-hidden scroll-smooth">
+      <div className="min-h-screen  flex flex-col w-full bg-[rgb(30,30,30)] snap-y snap-mandatory overflow-y-scroll 
+      z-1 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 overflow-x-hidden scroll-smooth">
           <Head>
             <title>Tradity</title>
             <link rel="icon" href="/favicon.ico" />

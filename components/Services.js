@@ -20,7 +20,7 @@ export default function Services() {
 			</h3>
 
 		</motion.div>
-		<div className="grid grid-cols-1 md:grid-cols-2 w-full h-full md:mt-[200px] mt-10 px-5 py-5 gap-10" >
+		<div className="grid grid-cols-1 md:grid-cols-3 w-full h-full md:mt-[200px] mt-10 px-5 py-5 gap-10" >
 			<motion.div
 			initial={{
 				opacity:0.5
@@ -73,11 +73,10 @@ export default function Services() {
 			}}
 			className="rounded-xl bg-gray-700/40 p-5 h-[300px]"
 			>
-				<div className="flex flex-col gap-5 text-center justify-center" >	
+				<div className="flex flex-col text-center " >	
 					<h1 className="text-3xl text-yellow-500 font-bold uppercase">AUM</h1>
-					<div className="h-full w-full flex items-center justify-center">
-						<p className="text-lg text-gray-300/70 font-semibold">90K+ and Counting</p>
-					</div>
+					<p className="text-4xl text-gray-300/70 mt-[60px] font-semibold">90K+</p>
+					<p className="text-md text-gray-300/60 font-semibold">and counting...</p>
 
 				</div>
 
