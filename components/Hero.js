@@ -203,7 +203,7 @@ export default function Hero() {
 						<span className={`${animateI ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} > I</span> <span className={`${animateT2 ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} >T</span> 
 						<span className={`${animateY ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} > Y</span>
 						</h1>
-						<p className="md:text-xl  text-sm text-gray-300/90 font-mono ">When money realizes that it is in good hands, it wants to stay and multiply in those hands</p>
+						<p className="md:text-xl  text-sm text-gray-300/90 font-mono ">"When money realizes that it is in good hands, it wants to stay and multiply in those hands"</p>
 							
 					</div>
 
