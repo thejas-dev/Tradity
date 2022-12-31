@@ -33,7 +33,7 @@ export default function Courses() {
 				<div className="flex flex-col gap-5 text-center justify-center" >	
 					<h1 className="text-3xl text-yellow-500 font-bold uppercase">M i s s i o n</h1>
 					<p className="text-lg text-gray-300/70 font-semibold">Our Mission is to give awareness about stock market to people and guide
-					them in a right way to live an life with "Financial Freedom"</p>
+					them in a right way.</p>
 
 				</div>
 
@@ -52,7 +52,7 @@ export default function Courses() {
 			>
 				<div className="flex flex-col gap-5 text-center justify-center" >	
 					<h1 className="text-3xl text-yellow-500 font-bold uppercase">V I S I O N</h1>
-					<p className="text-lg text-gray-300/70 font-semibold">To Help People to be Financially independent</p>
+					<p className="text-lg text-gray-300/70 font-semibold">To educate and help people with finance</p>
 
 				</div>
 

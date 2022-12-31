@@ -58,7 +58,13 @@ export default function Header({session,id}) {
 				duration:1.5,
 			}}
 			className="flex items-center  md:ml-2 flex-row gap-5 md:gap-7 "
-			>
+			>	
+				<a href="#join">
+				<img src="https://ik.imagekit.io/d3kzbpbila/thejashari_8tbU4Tzr6?ik-sdk-version=javascript-1.4.3&updatedAt=1670511161122"
+				alt=""
+				className="w-8 h-8 rounded-full"
+				/>
+				</a>
 				<a href={instaId}>
 				<AiOutlineInstagram 
 				className="md:h-8 h-6 w-6 md:w-8 h-6 w-6 text-gray-500 hover:text-sky-500 cursor-pointer transition duration-200 ease-out
@@ -77,7 +83,7 @@ export default function Header({session,id}) {
 				hover:scale-110"
 				/>
 				</a>
-				<a href="https://wa.me/+919786783564">
+				<a href="https://wa.me/+919080977652">
 				<AiOutlineWhatsApp 
 				className="md:h-8 h-6 w-6 md:w-8 h-6 w-6 text-gray-500 hover:text-sky-500 cursor-pointer transition duration-200 ease-out
 				hover:scale-110"
@@ -139,8 +145,8 @@ export default function Header({session,id}) {
 				""
 				}
 				<BsChevronDown 
-					onClick={()=>setRevealMenu(!revealMenu)}
-					className={`md:h-8 h-6 w-6 md:w-8 h-6 w-6 text-gray-500 hover:text-sky-500 cursor-pointer transition duration-200 ease-out
+				onClick={()=>setRevealMenu(!revealMenu)}
+				className={`md:h-8 h-6 w-6 md:w-8 h-6 w-6 text-gray-500 hover:text-sky-500 cursor-pointer transition duration-200 ease-out
 				hover:scale-110 mr-2 md:mr-5 md:hidden ${revealMenu ? "rotate-180 transition duration-300 ease-out" :""} `}
 				/>
 				<div className={`fixed top-[70px] p-3 border-2 border-gray-500 z-50 rounded-xl bg-gray-800/70 scale-0 transition-scale duration-300 ease-out
@@ -177,7 +183,7 @@ export default function Header({session,id}) {
 								signIn(id)
 							}
 						}}
-						className="text-md text-gray-400 cursor-pointer hover:text-yellow-500">{session ? "Connected" : "Login"}</h1>
+						className="text-md text-gray-400 cursor-pointer hover:text-yellow-500">{currentUser ? "LoggedIn" : "Login"}</h1>
 						</div>
 						<Divider className="bg-gray-500"/>
 						<div className={`flex ${currentUser ? "" : "hidden"} gap-2`}>

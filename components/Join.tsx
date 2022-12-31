@@ -38,7 +38,7 @@ export default function Join() {
 			<div className="space-y-10">
 				<div className="flex items-center space-x-5 justify-center" >
 					<PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-					<p className="text-2xl text-gray-300/70" >97867 83564</p>
+					<p className="text-2xl text-gray-300/70" >90809 77652</p>
 				</div>
 				<div className="flex items-center space-x-5 justify-center" >
 					<MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />

@@ -37,6 +37,9 @@ export default function Services() {
 					<h1 className="text-3xl text-yellow-500 font-bold uppercase">Investment advisory</h1>
 					<p className="text-lg text-gray-300/70 font-semibold">
 						We provide investment advice based on our experience to get the maximum returns to our clients.
+						<br/>
+						<br/>
+						*Not SEBI registered
 					</p>
 
 				</div>
