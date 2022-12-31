@@ -28,7 +28,7 @@ export default function Team() {
 		transition={{duration:1.5}}
 		className="z-0 flex flex-col items-center"
 		>
-				<a href="https://instagram.com/im_saravanan_gms">
+				<a href="https://instagram.com/saravanakumargm">
 				<div className="flex gap-2 mt-6 items-center">
 					<h1 className="text-xl font-semibold text-gray-200" >G M Saravana Kumar</h1>
 					<BsInstagram className="text-sky-700 text-xl" />
