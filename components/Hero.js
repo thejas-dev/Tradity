@@ -53,27 +53,27 @@ export default function Hero() {
 		//retract
 		setTimeout(function() {
 			setAnimateT(false);
-		}, 2100);
+		}, 1800);
 		setTimeout(function() {
 			setAnimateR(false);
-		}, 2300);
+		}, 2000);
 		setTimeout(function() {
 			setAnimateA(false);
-		}, 2500);
+		}, 2200);
 
 		setTimeout(function() {
 			setAnimateD(false);
-		}, 2700);
+		}, 2400);
 		setTimeout(function() {
 			setAnimateI(false);
-		}, 2900);
+		}, 2600);
 		setTimeout(function() {
 			setAnimateT2(false);
-		}, 3100);
+		}, 2800);
 		setTimeout(function() {
 			setAnimateY(false);
 
-		}, 3300);
+		}, 3000);
 		//blink twice
 		setTimeout(function() {
 			setAnimateT(true);
@@ -101,75 +101,74 @@ export default function Hero() {
 		//high
 		setTimeout(function() {
 			setAnimateT(false);
-		}, 4300);
+		}, 4200);
 		setTimeout(function() {
 			setAnimateR(false);
-		}, 4300);
+		}, 4200);
 		setTimeout(function() {
 			setAnimateA(false);
-		}, 4300);
+		}, 4200);
 
 		setTimeout(function() {
 			setAnimateD(false);
-		}, 4300);
+		}, 4200);
 		setTimeout(function() {
 			setAnimateI(false);
-		}, 4300);
+		}, 4200);
 		setTimeout(function() {
 			setAnimateT2(false);
-		}, 4300);
+		}, 4200);
 		setTimeout(function() {
 			setAnimateY(false);	
-		}, 4300);
+		}, 4200);
 
 		//2nd blink
 		setTimeout(function() {
 			setAnimateT(true);
-		}, 4800);
+		}, 4500);
 		setTimeout(function() {
 			setAnimateR(true);
-		}, 4800);
+		}, 4500);
 		setTimeout(function() {
 			setAnimateA(true);
-		}, 4800);
+		}, 4500);
 
 		setTimeout(function() {
 			setAnimateD(true);
-		}, 4800);
+		}, 4500);
 		setTimeout(function() {
 			setAnimateI(true);
-		}, 4800);
+		}, 4500);
 		setTimeout(function() {
 			setAnimateT2(true);
-		}, 4800);
+		}, 4500);
 		setTimeout(function() {
 			setAnimateY(true);
 			
-		}, 4800);
+		}, 4500);
 		//high
 		setTimeout(function() {
 			setAnimateT(false);
-		}, 5200);
+		}, 4800);
 		setTimeout(function() {
 			setAnimateR(false);
-		}, 5200);
+		}, 4800);
 		setTimeout(function() {
 			setAnimateA(false);
-		}, 5200);
+		}, 4800);
 
 		setTimeout(function() {
 			setAnimateD(false);
-		}, 5200);
+		}, 4800);
 		setTimeout(function() {
 			setAnimateI(false);
-		}, 5200);
+		}, 4800);
 		setTimeout(function() {
 			setAnimateT2(false);
-		}, 5200);
+		}, 4800);
 		setTimeout(function() {
 			setAnimateY(false);
-			
-		}, 5200);
+		}, 4800);
 
 
 	}
@@ -213,13 +212,13 @@ export default function Hero() {
 							<Link href="#services" className="z-50" >
 								<button className="heroButton text-md md:text-lg">Services</button>
 							</Link>
-							<Link href="#gallery" >
+							<Link href="#gallery" className="z-50">
 								<button className="heroButton text-md md:text-lg">chart</button>
 							</Link>
-							<Link href="#team" >
+							<Link href="#team" className="z-50">
 								<button className="heroButton text-md md:text-lg">team</button>
 							</Link>
-							<Link href="#join">
+							<Link href="#join" className="z-50">
 								<button className="heroButton text-md md:text-lg">Join</button>
 							</Link>
 						</div>
