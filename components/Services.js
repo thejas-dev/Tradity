@@ -78,7 +78,7 @@ export default function Services() {
 			>
 				<div className="flex flex-col text-center " >	
 					<h1 className="text-xl text-yellow-500 font-bold uppercase">Assets Under Management</h1>
-					<p className="text-4xl text-gray-300/70 mt-[60px] font-semibold">90K+</p>
+					<p className="text-4xl text-gray-300/70 mt-[60px] font-semibold">200K+</p>
 					<p className="text-md text-gray-300/60 font-semibold mt-2">and counting</p>
 
 				</div>
