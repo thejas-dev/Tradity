@@ -24,7 +24,7 @@ export default function Header({session,id}) {
 	const [revealMenu,setRevealMenu] = useState(false);
 
 	useEffect(()=>{
-		setInstaId("https://instagram.com/tradityltd");
+		setInstaId("https://instagram.com/haveten.invest");
 		setFacebook("https://facebook.com");
 		setTwitter('https://twitter.com/Tradityltd');
 		if(localStorage.getItem('tradity')){
@@ -111,7 +111,7 @@ export default function Header({session,id}) {
 					currentUser ? 
 					currentUser?.name
 					:
-					"Not Logged In"
+					""
 				}</h4>
 				<AiOutlineMail 
 				onClick={()=>setReveal(true)}

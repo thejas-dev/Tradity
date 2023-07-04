@@ -59,10 +59,7 @@ export default function Gallery({id}) {
 	return (
 
 		<div className="min-h-screen relative max-w-7xl w-full mx-auto text-center z-0 mt-7" >
-		<img src="https://ik.imagekit.io/d3kzbpbila/trade2_tvkXeXbys.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671704386580"
-		alt=""
-		className="absolute w-full top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] opacity-40"
-		/>
+			
 		<motion.div
 		initial={{
 			opacity:0,
@@ -76,6 +73,10 @@ export default function Gallery({id}) {
 			<p className="text-gray-600 z-50 text-md mt-10">Tap on chart to preview</p>
 		</motion.div>
 		<div className="min-h-screen relative w-full">
+		<img src="https://ik.imagekit.io/d3kzbpbila/trade2_tvkXeXbys.png?ik-sdk-version=javascript-1.4.3&updatedAt=1671704386580"
+			alt=""
+			className="absolute w-full top-[49%] left-[50%] translate-x-[-50%] translate-y-[-50%] opacity-40"
+			/>
 		<div className={`h-full w-full absolute p-5 flex items-center justify-center bg-gray-1000/30 rounded-xl 
 		backdrop-blur-md md:backdrop-blur-md ${currentUser ? "hidden" : ""} z-10 absolute`} >
 				<h1 className={`text-yellow-500  text-4xl mx-auto font-semibold`} ><span 

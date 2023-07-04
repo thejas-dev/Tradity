@@ -198,9 +198,9 @@ export default function Hero() {
 					<div className="w-full relative h-full justify-center md:gap-12 gap-7 flex flex-col text-center z-10 p-5" > 
 						
 						<h1 className="text-5xl md:text-8xl text-yellow-500 relative font-semibold">
-						<span className={`${animateT ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} >T</span><span className={`${animateR ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} > R</span> <span className={`${animateA ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} >A</span> <span className={`${animateD ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} >D</span> 
-						<span className={`${animateI ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} > I</span> <span className={`${animateT2 ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} >T</span> 
-						<span className={`${animateY ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} > Y</span>
+						<span className={`${animateT ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} >H</span><span className={`${animateR ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} > A</span> <span className={`${animateA ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} >V</span> <span className={`${animateD ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} >E</span> 
+						<span className={`${animateI ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} > T</span> <span className={`${animateT2 ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} >E</span> 
+						<span className={`${animateY ? "opacity-20 transition-all duration-500 ease-in-out":""} transition-all duration-500 ease-in-out`} > N</span>
 						</h1>
 						<p className="md:text-xl  text-sm text-gray-300/90 font-mono ">"When money realizes that it is in good hands, it wants to stay and multiply in those hands"</p>
 							

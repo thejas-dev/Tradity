@@ -65,7 +65,7 @@ export default function Team() {
 		className="z-0 flex flex-col items-center"
 		>
 			
-				<a href="https://instagram.com/nuthejashari">
+				<a href="https://instagram.com/tns._academy">
 				<div className="flex gap-2 mt-6 items-center">
 					<h1 className="text-xl font-semibold text-gray-200" >N U Thejas Hari</h1>
 					<BsInstagram className="text-sky-700 text-xl" />

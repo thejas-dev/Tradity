@@ -28,7 +28,7 @@ export default function Courses() {
 			transition={{
 				duration:1.5
 			}}
-			className="rounded-xl bg-gray-700/40 p-5 h-[300px]"
+			className="rounded-xl bg-gray-700/40 p-5 h-[200px] lg:w-[80%] md:w-[90%] w-[100%] mx-auto hover:bg-gray-700/50 transition-all duration-100"
 			>
 				<div className="flex flex-col gap-5 text-center justify-center" >	
 					<h1 className="text-3xl text-yellow-500 font-bold uppercase">M i s s i o n</h1>
@@ -48,7 +48,7 @@ export default function Courses() {
 			transition={{
 				duration:1.5
 			}}
-			className="rounded-xl bg-gray-700/40 p-5 h-[300px]"
+			className="rounded-xl bg-gray-700/40 p-5 h-[200px] lg:w-[80%] md:w-[90%] w-[100%] mx-auto hover:bg-gray-700/50 transition-all duration-100"
 			>
 				<div className="flex flex-col gap-5 text-center justify-center" >	
 					<h1 className="text-3xl text-yellow-500 font-bold uppercase">V I S I O N</h1>

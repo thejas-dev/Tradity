@@ -225,7 +225,7 @@ const Index = ({providers}) => {
       <div className="min-h-screen  flex flex-col w-full bg-[rgb(30,30,30)] snap-y snap-mandatory overflow-y-scroll 
       z-1 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 overflow-x-hidden scroll-smooth">
           <Head>
-            <title>Tradity</title>
+            <title>Haveten</title>
             <link rel="icon" href="/favicon.ico" />
           </Head>
           <Header session={session} id={id}/>
@@ -337,7 +337,7 @@ const Index = ({providers}) => {
           > 
               <div className="h-full w-full gap-5 px-2 flex flex-col bg-black/70 justify-center items-center text-center ">
                   <h1 className="text-red-500 tracking-[] text-center md:text-3xl text-xl font-mono tracking-wide uppercase">Subscribe</h1>
-                  <div className="w-[300px] rounded-full px-5 py-3 border-2 shadow-lg shadow-yellow-600/70 focus-within:shadow-blue-500/70 border-gray-700/70 ">
+                  <div className="w-[300px] rounded-full px-5 py-3 border-2 shadow-lg shadow-yellow-600/40 focus-within:shadow-blue-500/40 border-gray-700/70 ">
                     <input 
                     value={mail}
                     onChange={(e)=>{
@@ -346,7 +346,7 @@ const Index = ({providers}) => {
                     placeholder={subscribed ? localStorage.getItem('tradity')  :"Enter Your Mail Id"}
                     className="bg-transparent outline-none w-full text-gray-300/80" type="email" />
                   </div>
-                  <h1 className="text-md flex gap-[5px] items-center font-semibold text-gray-500/80 mt-5"><TiTick className="text-sky-500 h-10 w-10"/> Recieve Tradity updates in your mail inbox</h1>
+                  <h1 className="text-md flex gap-[5px] items-center font-semibold text-gray-500/80 mt-5"><TiTick className="text-sky-500 h-10 w-10"/> Recieve Haveten updates in your mail inbox</h1>
                   <div className="button flex items-center justify-center gap-10 w-full">
                     <button 
                     onClick={()=>setReveal(false)}

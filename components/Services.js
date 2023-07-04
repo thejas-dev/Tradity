@@ -31,7 +31,7 @@ export default function Services() {
 			transition={{
 				duration:1.5
 			}}
-			className="rounded-xl bg-gray-700/40 p-5 h-[300px]"
+			className="rounded-xl bg-gray-700/40 p-5 h-[300px] hover:bg-gray-700/50 transition-all duration-100"
 			>
 				<div className="flex flex-col gap-5 text-center justify-center" >	
 					<h1 className="text-3xl text-yellow-500 font-bold uppercase">Investment advisory</h1>
@@ -55,7 +55,7 @@ export default function Services() {
 			transition={{
 				duration:1.5
 			}}
-			className="rounded-xl bg-gray-700/40 p-5 h-[300px]"
+			className="rounded-xl bg-gray-700/40 p-5 h-[300px] hover:bg-gray-700/50 transition-all duration-100"
 			>
 				<div className="flex flex-col gap-5 text-center justify-center" >	
 					<h1 className="text-3xl text-yellow-500 font-bold uppercase">Trading Assistance</h1>
@@ -74,7 +74,7 @@ export default function Services() {
 			transition={{
 				duration:1.5
 			}}
-			className="rounded-xl bg-gray-700/40 p-5 h-[300px]"
+			className="rounded-xl bg-gray-700/40 p-5 h-[300px] hover:bg-gray-700/50 transition-all duration-100"
 			>
 				<div className="flex flex-col text-center " >	
 					<h1 className="text-xl text-yellow-500 font-bold uppercase">Assets Under Management</h1>
